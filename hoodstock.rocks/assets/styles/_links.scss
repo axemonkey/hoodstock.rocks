@@ -1,0 +1,15 @@
+a {
+	display: inline-block;
+	text-decoration: underline;
+	color: $mainLinkColour;
+
+	&:hover {
+		color: $mainBgColour;
+		background-color: $mainLinkColour;
+		text-decoration: none;
+	}
+
+	img {
+		display: inline-block;
+	}
+}

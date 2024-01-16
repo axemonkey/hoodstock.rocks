@@ -1,0 +1,57 @@
+main {
+	color: $mainFgColour;
+	background-color: $mainBgColour;
+	padding: 30px;
+	text-align: center;
+	justify-content: center;
+	flex: 1 0 500px;
+	width: 96%;
+	max-width: 800px;
+	margin: 40px auto;
+	box-shadow: 2px 2px 2px #666;
+	border-radius: 15px;
+	border: 1px solid #666;
+
+	h1 {
+		margin-bottom: 30px;
+	}
+
+	section {
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid $navFgColour;
+		text-align: left;
+
+		&.bands {
+			padding-bottom: 60px;
+			margin-bottom: 60px;
+			border-bottom: 6px double $navFgColour;
+		}
+
+		&:last-child {
+			padding-bottom: 0;
+			margin-bottom: 0;
+			border: none;
+
+			p:last-child {
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+
+.lede {
+	text-align: center;
+
+	h2 {
+		font-size: 4rem;
+	}
+
+	li {
+		list-style-type: none;
+		padding: 0;
+		margin-left: 0;
+		font-size: 3rem;
+	}
+}

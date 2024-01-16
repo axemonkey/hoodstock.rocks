@@ -1,0 +1,57 @@
+@font-face {
+	font-family: Monoton;
+	src: url("/public/fonts/Monoton-Regular.woff2") format("woff2"),
+		url("/public/fonts/Monoton-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: DinAlternate;
+	src: url("/public/fonts/DINAlternate-Bold.woff2") format("woff2"),
+		url("/public/fonts/DINAlternate-Bold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+$heading1Font: "Monoton", sans-serif;
+$heading2Font: "DinAlternate", sans-serif;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	// height: 100%;
+}
+
+body {
+	height: 100vh;
+	color: #ff6;
+	background-color: #000;
+
+	main {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	h1,
+	h2 {
+		font-weight: normal;
+		max-width: 100%;
+	}
+
+	h1 {
+		font-family: $heading1Font;
+		font-size: 5em;
+	}
+
+	h2 {
+		font-family: $heading2Font;
+		font-size: 3em;
+	}
+}

@@ -1,0 +1,21 @@
+header {
+	color: $navFgColour;
+	flex: 0 0 auto;
+
+	h1 {
+		a {
+			color: $navFgColour;
+			text-decoration: none;
+		}
+
+		img {
+			width: 200px;
+		}
+	}
+
+	h2 {
+		font-family: $heading2Font;
+		font-size: 3rem;
+		text-transform: uppercase;
+	}
+}

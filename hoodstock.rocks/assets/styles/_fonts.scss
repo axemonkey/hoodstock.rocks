@@ -1,0 +1,19 @@
+@font-face {
+	font-family: Monoton;
+	src: url("/public/fonts/Monoton-Regular.woff2") format("woff2"),
+		url("/public/fonts/Monoton-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: DinAlternate;
+	src: url("/public/fonts/DINAlternate-Bold.woff2") format("woff2"),
+		url("/public/fonts/DINAlternate-Bold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+$heading1Font: "Monoton", sans-serif;
+$heading2Font: "DinAlternate", sans-serif;
+$navFont: $heading2Font;
+$copyFont: $heading2Font;

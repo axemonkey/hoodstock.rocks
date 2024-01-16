@@ -1,0 +1,25 @@
+footer {
+	color: $navFgColour;
+	background-color: $navBgColour;
+	padding: 15px;
+	flex: 0 0 auto;
+	font-family: $copyFont;
+
+	p,
+	li {
+		font-size: 1.75rem;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	a {
+		color: $navLinkColour;
+
+		&:hover {
+			color: $navLinkHoverColour;
+			text-decoration: underline;
+		}
+	}
+}

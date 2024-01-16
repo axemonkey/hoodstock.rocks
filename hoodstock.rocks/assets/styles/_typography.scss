@@ -1,0 +1,50 @@
+main {
+	h1 {
+		font-size: 3rem;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-size: 2.75rem;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	p,
+	li {
+		font-size: 2.25rem;
+	}
+
+	p {
+		margin-bottom: 1em;
+		line-height: 1.5;
+	}
+
+	ul + p {
+		margin-top: 1em;
+	}
+
+	section {
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	ul {
+		margin-bottom: 1em;
+	}
+
+	li {
+		margin-left: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.force-lower {
+	text-transform: lowercase;
+}
