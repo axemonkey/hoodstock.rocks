@@ -5,11 +5,17 @@ a {
 
 	&:hover {
 		color: $mainBgColour;
-		background-color: $mainLinkColour;
 		text-decoration: none;
 	}
 
 	img {
 		display: inline-block;
+	}
+}
+
+main,
+footer {
+	a:hover {
+		background-color: $mainLinkColour;
 	}
 }

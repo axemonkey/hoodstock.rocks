@@ -9,10 +9,16 @@ html {
 }
 
 body {
-	height: 100vh;
-	background: $navFgColour;
+	height: 100svh;
 	color: $mainFgColour;
-	display: flex;
-	flex-direction: column;
+	background: linear-gradient(
+		to bottom,
+		$white,
+		$white 50%,
+		$hs2024red 50%,
+		$hs2024red
+	);
+	background-size: 100% 135px;
+	background-attachment: fixed;
 	font-family: $copyFont;
 }
