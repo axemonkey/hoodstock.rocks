@@ -37,15 +37,16 @@ body {
 	h2 {
 		font-weight: normal;
 		max-width: 100%;
+		text-shadow: 2px 0 0 #fff, 0 2px 0 #fff, -2px 0 0 #fff, 0 -2px 0 #fff;
 	}
 
 	h1 {
 		font-family: $headingFont;
-		font-size: 5em;
+		font-size: 7em;
 	}
 
 	h2 {
 		font-family: $headingFont;
-		font-size: 3em;
+		font-size: 4em;
 	}
 }
