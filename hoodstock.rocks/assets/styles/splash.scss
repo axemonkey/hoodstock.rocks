@@ -1,20 +1,7 @@
-@font-face {
-	font-family: Monoton;
-	src: url("/public/fonts/Monoton-Regular.woff2") format("woff2"),
-		url("/public/fonts/Monoton-Regular.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: DinAlternate;
-	src: url("/public/fonts/DINAlternate-Bold.woff2") format("woff2"),
-		url("/public/fonts/DINAlternate-Bold.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-}
+@import "vars";
+@import "fonts";
 
-$heading1Font: "Monoton", sans-serif;
-$heading2Font: "DinAlternate", sans-serif;
+$headingFont: "Norwester", sans-serif;
 
 * {
 	margin: 0;
@@ -28,8 +15,15 @@ body {
 
 body {
 	height: 100vh;
-	color: #ff6;
-	background-color: #000;
+	color: $black;
+	background: linear-gradient(
+		to bottom,
+		$white,
+		$white 50%,
+		$hs2024red 50%,
+		$hs2024red
+	);
+	background-size: 100% 135px;
 
 	main {
 		height: 100%;
@@ -46,12 +40,12 @@ body {
 	}
 
 	h1 {
-		font-family: $heading1Font;
+		font-family: $headingFont;
 		font-size: 5em;
 	}
 
 	h2 {
-		font-family: $heading2Font;
+		font-family: $headingFont;
 		font-size: 3em;
 	}
 }

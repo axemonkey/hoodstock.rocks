@@ -1,19 +1,49 @@
+// Atkinson Hyperlegible
 @font-face {
-	font-family: Monoton;
-	src: url("/public/fonts/Monoton-Regular.woff2") format("woff2"),
-		url("/public/fonts/Monoton-Regular.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: DinAlternate;
-	src: url("/public/fonts/DINAlternate-Bold.woff2") format("woff2"),
-		url("/public/fonts/DINAlternate-Bold.woff") format("woff");
+	font-family: AtkinsonHyperlegible;
+	src: url("/public/fonts/Atkinson-Hyperlegible-Regular-102a.woff2")
+			format("woff2"),
+		url("/public/fonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
 
-$heading1Font: "Monoton", sans-serif;
-$heading2Font: "DinAlternate", sans-serif;
-$navFont: $heading2Font;
-$copyFont: $heading2Font;
+@font-face {
+	font-family: AtkinsonHyperlegible;
+	src: url("/public/fonts/Atkinson-Hyperlegible-Bold-102a.woff2")
+			format("woff2"),
+		url("/public/fonts/Atkinson-Hyperlegible-Bold-102.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: AtkinsonHyperlegible;
+	src: url("/public/fonts/Atkinson-Hyperlegible-Italic-102a.woff2")
+			format("woff2"),
+		url("/public/fonts/Atkinson-Hyperlegible-Italic-102.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: AtkinsonHyperlegible;
+	src: url("/public/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2")
+			format("woff2"),
+		url("/public/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff")
+			format("woff");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Norwester;
+	src: url("/public/fonts/norwester.woff2") format("woff2"),
+		url("/public/fonts/Monoton-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+$headingFont: "Norwester", sans-serif;
+$navFont: $headingFont;
+$copyFont: "AtkinsonHyperlegible", sans-serif;
