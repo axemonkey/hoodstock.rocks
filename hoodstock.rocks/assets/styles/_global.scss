@@ -19,6 +19,9 @@ body {
 		$hs2024red
 	);
 	background-size: 100% 135px;
-	background-attachment: fixed;
 	font-family: $copyFont;
+
+	@media (min-width: $breakpoint) {
+		background-attachment: fixed;
+	}
 }
