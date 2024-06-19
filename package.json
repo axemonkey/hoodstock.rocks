@@ -20,7 +20,7 @@
     "watch:assets": "onchange './hoodstock.rocks/assets/fonts' -- npm run build:copyassets",
     "watch:images": "onchange './hoodstock.rocks/assets/images/**/*' -- npm run build:images",
     "watch:styles": "onchange './hoodstock.rocks/assets/styles/**/*.scss' -- npm-run-all lint:styles build:styles",
-    "watch:js": "onchange './hoodstock.rocks/assets/**/*.js' -- npm-run-all lint:js build:js"
+    "watch:js": "onchange './hoodstock.rocks/assets/js/**/*.js' -- npm-run-all lint:js build:js"
   },
   "author": "Clive Murray <clive+murray@clivemurray.com>",
   "license": "UNLICENSED",
