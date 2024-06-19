@@ -3,10 +3,7 @@ export default {
 	presets: [
 		['@babel/preset-env'],
 	],
-	plugins: [
-		'@babel/plugin-transform-object-rest-spread',
-		'@babel/plugin-transform-object-assign',
-	],
+	plugins: [],
 	env: {
 		test: {
 			presets: [
