@@ -32,7 +32,7 @@
     "node": "22"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
     "@babel/core": "7.24.7",
     "@babel/preset-env": "7.24.7",
     "@rollup/plugin-babel": "6.0.4",
