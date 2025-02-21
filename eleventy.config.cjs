@@ -1,11 +1,11 @@
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy('hoodstock.rocks/public');
-	eleventyConfig.addPassthroughCopy({ 'hoodstock.rocks/robots.txt': '/robots.txt' });
+	eleventyConfig.addPassthroughCopy('src/public');
+	eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
 	eleventyConfig.setUseGitIgnore(false);
 	eleventyConfig.setServerOptions({
 		// liveReload: false,
 		watch: [
-			'hoodstock.rocks/public/**/*',
+			'src/public/**/*',
 		],
 		showVersion: true,
 	});
