@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../assets/js/main.js"],
+  "sourcesContent": ["console.log('js load');\n"],
+  "mappings": "MAAA,QAAQ,IAAI,SAAS",
+  "names": []
+}

@@ -40,36 +40,36 @@ header {
 
 		ul {
 			display: none;
+		}
 
-			li {
-				list-style-type: none;
-				font-size: 2em;
-				padding: 0;
-				font-family: $navFont;
-				font-weight: normal;
-				margin: 15px;
+		li {
+			list-style-type: none;
+			font-size: 2em;
+			padding: 0;
+			font-family: $navFont;
+			font-weight: normal;
+			margin: 15px;
+		}
 
-				a {
-					color: $navFgColour;
-					padding: 15px;
-					display: block;
-					border-radius: 10px;
+		a {
+			color: $navFgColour;
+			padding: 15px;
+			display: block;
+			border-radius: 10px;
 
-					&:hover {
-						background-color: $navFgColour;
-						color: $hs2024red;
-						text-decoration: none;
-					}
-				}
+			&:hover {
+				background-color: $navFgColour;
+				color: $hs2024red;
+				text-decoration: none;
+			}
+		}
 
-				&.close {
-					display: list-item;
-					text-align: right;
+		&.close {
+			display: list-item;
+			text-align: right;
 
-					@media (min-width: $breakpoint) {
-						display: none;
-					}
-				}
+			@media (min-width: $breakpoint) {
+				display: none;
 			}
 		}
 
