@@ -1,38 +1,36 @@
-// Atkinson Hyperlegible
+// AtkinsonHyperlegibleNext
 @font-face {
-	font-family: "AtkinsonHyperlegible";
-	src: url("/public/fonts/Atkinson-Hyperlegible-Regular-102a.woff2")
-		format("woff2");
+	font-family: "AtkinsonHyperlegibleNext"; // by The Braille Institute - https://www.brailleinstitute.org/freefont/
+	src: url("/public/fonts/AtkinsonHyperlegibleNext-Light.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "AtkinsonHyperlegible";
-	src: url("/public/fonts/Atkinson-Hyperlegible-Bold-102a.woff2")
-		format("woff2");
+	font-family: "AtkinsonHyperlegibleNext";
+	src: url("/public/fonts/AtkinsonHyperlegibleNext-Bold.woff2") format("woff2");
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "AtkinsonHyperlegible";
-	src: url("/public/fonts/Atkinson-Hyperlegible-Italic-102a.woff2")
+	font-family: "AtkinsonHyperlegibleNext";
+	src: url("/public/fonts/AtkinsonHyperlegibleNext-LightItalic.woff2")
 		format("woff2");
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: "AtkinsonHyperlegible";
-	src: url("/public/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2")
+	font-family: "AtkinsonHyperlegibleNext";
+	src: url("/public/fonts/AtkinsonHyperlegibleNext-BoldItalic.woff2")
 		format("woff2");
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: "Norwester";
+	font-family: "Norwester"; // by Jamie Wilson - https: //jamiewilson.io/
 	src: url("/public/fonts/norwester.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
@@ -40,4 +38,4 @@
 
 $headingFont: "Norwester", sans-serif;
 $navFont: $headingFont;
-$copyFont: "AtkinsonHyperlegible", sans-serif;
+$copyFont: "AtkinsonHyperlegibleNext", sans-serif;
