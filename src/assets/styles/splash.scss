@@ -1,5 +1,6 @@
 @import "partials/vars";
 @import "partials/fonts";
+@import "partials/utilities";
 
 $headingFont: "Norwester", sans-serif;
 
@@ -11,37 +12,44 @@ $headingFont: "Norwester", sans-serif;
 
 body {
 	height: 100vh;
-	color: $black;
-	background: linear-gradient(
-		to bottom,
-		$white,
-		$white 50%,
-		$hs2024red 50%,
-		$hs2024red
-	);
-	background-size: 100% 135px;
+	color: #007eff;
+	background: #000;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	text-align: center;
 
 	main {
-		border: 3vw solid black;
-		background: white;
-		padding: 4vw;
-		display: inline-block;
-		margin: auto;
+		width: 100%;
+		height: 100vh;
+		max-width: 1024px;
+		/*
+		background: url("/public/images/2026/stripe.png") center top repeat-y;
+		background: url("/public/images/2026/logo.png") center top no-repeat;
+		background-size: 100% auto;
+		*/
+		background-image: url("/public/images/2026/logo.png"),
+			url("/public/images/2026/stripe.png");
+		background-position: center top;
+		background-repeat: no-repeat, repeat-y;
+		background-size: 100% auto;
+		margin: 0 auto;
+	}
 
-		@media (min-width: $breakpoint) {
-			border-width: 14px;
-			padding: 20px;
-		}
+	h2::before {
+		content: " ";
+		display: block;
+		max-width: 1024px;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 1024 / 537;
 	}
 
 	h1,
 	h2 {
 		font-weight: normal;
 		max-width: 100%;
+		text-shadow: 4px 4px 0 #000;
 	}
 
 	h1 {
